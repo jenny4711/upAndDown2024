@@ -1,0 +1,120 @@
+body{
+  display:flex;
+ 
+
+  flex-direction: column;
+  height:100%;
+  width:90%;
+  height: 100vh; 
+  background-image: url("image/beer.avif");
+  background-size: cover;
+  background-position: center;
+}
+.containerDiv{
+  display:flex;
+  margin-top:15%;
+ justify-content: center;
+
+
+
+  color:white;
+}
+h1{
+  color:white;
+  font-family: 'Dokdo', system-ui; 
+  font-size:50px;
+
+}
+#result{
+ color:#f4f3ee;
+font-family: 'Single Day', cursive;
+  font-size:20px;
+  width:190px;
+}
+img{
+  width:240px;
+  height:150px;
+}
+#imgDiv{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  /* margin-top:80px; */
+  width:240px;
+  height:150px;
+  
+
+
+}
+.mainDiv{
+  display:flex;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  /* flex-direction: column; */
+margin-right:15px;
+ /* margin-bottom:130px; */
+ 
+}
+#input{
+  width:75px;
+  height:75px;
+  border-radius: 10px;
+  margin-top:10px;
+  margin-bottom:10px;
+  text-align: center;
+font-size: 40px;
+background-color: #f4f3ee;
+border-color:#f4f3ee;;
+font-family: 'Single Day', cursive;
+color:black;
+}
+#btn,#reset{
+  width:80px;
+  height:80px;
+  background-color: #f4f3ee;
+border-color:#f4f3ee;
+font-size:35px;
+color:black;
+border-radius: 10px;
+margin-right:5px;
+font-family: 'Single Day', cursive;
+}
+.inputDiv{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left:320px;
+}
+#btns{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin-left:280px;
+}
+/* mobile */
+@media(max-width:600px){
+  #result{
+    font-size:30px;
+  }
+  #btn,#reset{
+    font-size:20px;
+    width:55px;
+    height:55px;
+    padding:10px;
+  }
+  #btns{
+    margin-left:50px;
+    margin-top:45px;
+  }
+  .inputDiv{
+    margin-left:160px;
+    margin-top:45px;
+  }
+}
+/* tablet */
+@media(min-width:600px)and(max-width:992px){
+ 
+}

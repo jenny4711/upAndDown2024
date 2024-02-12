@@ -88,7 +88,7 @@ if(userNum.length < 5){
 getAnswer(userValue)
 }else{
   btn.disabled=true;
-  console.log('기회를 전부 사용하셨습니다.')
+  result.textContent='기회를 전부 사용하셨습니다.'
 }
 
 input.value=""
