@@ -96,6 +96,10 @@ font-family: 'Single Day', cursive;
 }
 /* mobile */
 @media(max-width:600px){
+  #input{
+    width:55px;
+    height:55px;
+  }
   #result{
     font-size:30px;
   }
